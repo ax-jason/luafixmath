@@ -3,8 +3,6 @@
 extern "C" {
 #endif
 
-#include <string.h>
-#include <math.h>
 #include <lua.h>
 #include <lauxlib.h>
 #include "fixmath.h"
