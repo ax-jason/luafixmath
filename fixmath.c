@@ -436,7 +436,7 @@ fixed_t fx_asinx(fixed_t x, unsigned frac)
     fixed_t out;
     out = (fix_one - fx_mulx(x, x, frac));
     out = fx_divx(x, fx_sqrtx(out, frac), frac);
-    out = fx_tanx(out, frac);
+    out = fx_atanx(out, frac);
     return out;
 }
 
